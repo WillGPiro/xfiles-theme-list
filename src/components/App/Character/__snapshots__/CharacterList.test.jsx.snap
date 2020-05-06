@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterList component matches a snapshot of a CharacterList 1`] = `
+<section>
+  <p>
+    Dana Scully
+  </p>
+  <img
+    alt="image of xfiles character"
+    src="https://vignette.wikia.nocookie.net/x-files/images/3/31/Absalom.jpg/revision/latest/scale-to-width-down/310?cb=20070708201919"
+  />
+  <p>
+    Status:
+    alive
+  </p>
+  <p>
+    Occupation:
+    FBI Agent
+  </p>
+  <p>
+    Actor:
+    Gillian Anderson
+  </p>
+</section>
+`;
