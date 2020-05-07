@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+// import styles from '../Toggle/Toggle.css';
 
 const Switch = ({ toggle, value }) => (
   <section>
