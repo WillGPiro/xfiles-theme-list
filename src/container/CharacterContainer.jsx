@@ -7,7 +7,7 @@ import { useBelieveDeny } from '../components/hooks/BelieveOrDenyProvider.jsx';
 
 const CharacterContainer = () => {
   const [characters, setCharacters] = useState([]);
-
+ 
   const theme = useBelieveDeny();
   const stylesToUse = theme === 'believe' ? stylesBelieve : stylesDeny; 
 
@@ -22,7 +22,7 @@ const CharacterContainer = () => {
  
   return (
     <ul className={stylesToUse.Truth}>
-      {xfileCharacters}
+      {xfileCharacters} 
     </ul>
   );
 };

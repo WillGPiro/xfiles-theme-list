@@ -7,7 +7,8 @@ export const BelieveOrDenyProvider = ({ children }) => {
   const [believeDeny, setBelieveDeny] = useState('believe');
 
   const toggle = ({ target }) => {
-    if(target.checked) setBelieveDeny('belive');
+    console.log('===', target.checked);
+    if(target.checked) setBelieveDeny('believe');
     if(!target.checked) setBelieveDeny('deny');
   };
 

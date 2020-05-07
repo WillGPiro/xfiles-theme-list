@@ -10,7 +10,7 @@ const Header = () => {
     <section>
       <h1>X-Files</h1>
       <h2>Do you believe?</h2>
-      <Toggle value={believeDeny} toggle={toggle} />
+      <Toggle value={believeDeny === 'believe' } toggle={toggle} />
     </section>
   );
 };
